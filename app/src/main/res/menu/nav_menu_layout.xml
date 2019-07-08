@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeMenuId"
+            android:title="Home"
+            android:icon="@drawable/zogaan"
+            />
+        <item
+            android:id="@+id/profileMenuId"
+            android:title="Profile"
+            android:icon="@drawable/profile_icon"
+            />
+        <item
+            android:id="@+id/logoutMenuId"
+            android:title="LogOut"
+            android:icon="@drawable/logout_icon"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/shareMenuId"
+                android:title="Share"
+                android:icon="@drawable/zogaan_logo"/>
+            <item
+                android:id="@+id/ContactMenuId"
+                android:title="Contact me"
+                android:icon="@drawable/zogaan_logo"/>
+        </menu>
+    </item>
+
+
+</menu>
